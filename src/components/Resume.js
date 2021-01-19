@@ -4,7 +4,11 @@ class Resume extends Component {
     render (){
         return(
             <div>
-               <h1>Resume</h1>
+               <h2>Resume:</h2>
+               <div className ="resume">
+
+               </div>
+
             </div>
         )
     }

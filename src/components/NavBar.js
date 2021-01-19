@@ -6,16 +6,21 @@ class NavBar extends Component {
        return(
            <div>
                <div className="navbar">
-                   <Link to = '/'>
-                       <p className="navBarLinks">Home</p>
-                   </Link>
+                    <Link to = '/projects'>
+                       <p className="navBarLinks">Projects</p>
+                    </Link>
+                  
                    <Link to = '/resume'>
                        <p className="navBarLinks">Resume</p>
                    </Link>
-                   <Link to = '/projects'>
-                       <p className="navBarLinks">Projects</p>
+
+                   <Link to = '/'>
+                       <p className="navBarLinks">Home</p>
                    </Link>
+                   
                </div>
+
+               
               
 
            </div>
