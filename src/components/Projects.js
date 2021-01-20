@@ -9,7 +9,7 @@ class Projects extends Component {
                 <div className="projectsNavBar">
                     <a  className="projectsLink" href = "https://photogig.netlify.app/">Photogig</a>
                 
-                    <a className="projectsLink" href = "https://photogig.netlify.app/">Trip&Treat</a>
+                    <a className="projectsLink" href = "https://tripandtreat.netlify.app">Trip&Treat</a>
                     
                     <a className="projectsLink" href = "https://photogig.netlify.app/">NabeB</a>
                     
