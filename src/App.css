@@ -120,5 +120,12 @@ h2 {
   padding-right:50px;
   
 }
+.socialMediaIcons{
+  font-size: 24px;
+  font-family:fantasy;
+  text-align: left;
+  padding: 14px 16px;
+  color: rgba(63, 62, 62, 0.658);
+}
 
 
