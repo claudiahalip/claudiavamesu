@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import background from '../images/photo-profile.jpg'
+
 
 class Home extends Component {
    render(){
