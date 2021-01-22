@@ -6,6 +6,7 @@ class Resume extends Component {
             <div>
                <h2>Resume:</h2>
                <div className ="resume">
+                   <a href ="https://docs.google.com/document/d/1RVAdvHZDqCUlD1AsmmaC7uitJXe-ZJDLJFBB68IfIis">Resume</a>
 
                </div>
 

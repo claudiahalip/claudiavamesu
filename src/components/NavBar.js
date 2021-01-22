@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-import { FaFacebook , FaLinkedin} from 'react-icons/fa';
+import { FaEnvelope, FaFacebook , FaLinkedin} from 'react-icons/fa';
 
 class NavBar extends Component {
    render(){
@@ -20,8 +20,15 @@ class NavBar extends Component {
                    </Link>
 
                    <div className="socialMediaIcons">
+                       <a className="socialMediaIcons" href="https://www.linkedin.com/in/claudia-halip-b8556a4a/">
                        <FaLinkedin/>
+                       </a>
+                       <a className="socialMediaIcons" href = "https://www.facebook.com/claudiahalip/">
                        <FaFacebook/>
+                       </a>
+                       <a className="socialMediaIcons" href = "mailto:claudiahalip2012@gmai.com">
+                           <FaEnvelope/>
+                       </a>
                    </div>
                    
                </div>
