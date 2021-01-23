@@ -5,7 +5,10 @@ class Resume extends Component {
         return(
             <div>
                <h2>Resume:</h2>
+               <a href = "https://docs.google.com/document/d/1RVAdvHZDqCUlD1AsmmaC7uitJXe-ZJDLJFBB68IfIis/edit">
                <img className = "resume" src={resume}></img>
+               </a>
+               
             </div>
         )
     }
