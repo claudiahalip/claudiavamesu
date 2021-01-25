@@ -134,4 +134,12 @@ h2 {
 
 }
 
+.projectDescription{
+  right: 0;
+  text-align:left;
+  margin: 1rem 0rem 1rem 60rem;
+  
+  color: rgba(51, 49, 49, 0.658);
+}
+
 
