@@ -18,14 +18,14 @@ class Projects extends Component {
                        Frontend built with JavaScript. 
                        Rails API handle the data persistence with a database.
                     </p>
-                    <a className="projectsLink" href = " https://youtu.be/5dannSwmXn0">NabeB</a>
+                    {/* <a className="projectsLink" href = " https://youtu.be/5dannSwmXn0">NabeB</a>
                     <p className="projectDescription">
                         An application for business owners to be found in their neighborhood and for people who want to support small businesses in their area.
                         Build with Ruby on Rails framework.
                         Standard user authentication,including signup, login, logout and passwords.
                         The authentication system also allows login with google account.
 
-                    </p>
+                    </p> */}
                     
                 </div>
 
