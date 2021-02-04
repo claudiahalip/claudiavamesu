@@ -147,4 +147,14 @@ h2 {
   color: rgba(51, 49, 49, 0.658);
 }
 
+.intro{
+  font-size: 20px;
+  right: 0;
+  text-align:center;
+  margin: 1rem 1rem 1rem 60rem;
+  
+  color: rgba(17, 17, 17, 0.664);
+  font-family:fantasy;
+}
+
 
