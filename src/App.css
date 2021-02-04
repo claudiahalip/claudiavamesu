@@ -110,9 +110,7 @@ h1 {
   font-family:fantasy;
 
 }
-.resume{
-  height: 35rem;
-}
+
 
 .projectsLink:hover{
   color: #e74040;
@@ -135,6 +133,7 @@ h2 {
 }
 
 .resume{
+  height: 35rem;
   position: relative;
   padding-left: 750px;
 
