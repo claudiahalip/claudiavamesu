@@ -145,6 +145,7 @@ h2 {
   margin: 1rem 1rem 1rem 60rem;
   
   color: rgba(51, 49, 49, 0.658);
+  
 }
 
 .intro{
@@ -154,7 +155,7 @@ h2 {
   margin: 1rem 1rem 1rem 60rem;
   
   color: rgba(17, 17, 17, 0.664);
-  font-family:fantasy;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 
