@@ -1,23 +1,63 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
+import aboutMe1 from'../images/1.jpg';
+import aboutMe2 from'../images/2.jpg';
+import photo from '../images/3.jpg';
+import project1 from '../images/4.jpg';
+import project2 from '../images/5.jpg';
+import project3 from '../images/6.jpg';
+import project4 from '../images/7.jpg';
+import project5 from '../images/8.jpg';
+import project6 from '../images/9.jpg';
+import resume1 from '../images/10.jpg';
+import resume2 from '../images/11.jpg';
+import article1 from '../images/12.jpg';
+import article2 from '../images/13.jpg';
+
 
 
 class Home extends Component {
    render(){
        return (
             <div>
-              <p className="intro">
-                Hello! I'm Claudia! I'm a full-stack web developer, welcome to my page!
-              </p>
+             
+              
+              <img src ={photo} className="image-home-page" >
+              </img>
+              <a href="/about">
+                <img src ={aboutMe2}></img>
+                <img src ={aboutMe1}></img>
+              </a>
 
-              <p className="story">
-              I live in the Chicago suburbs. I recently graduated from Flatiron school, currently working on my own projects where I can practice my skills gained during my time there.
-              I’ve graduated from college many years ago with a bachelor’s degree in Public Administration
-              but I’ve always known that I wanted to work in tech. This year I decided to change my career...
-              Before this change I worked as a photographer. I started as a photojournalist for a local newspaper. Through photography I traveled the world, worked on cruise ships, and met many interesting people.
-              Years later, my husband and I created H Photography, our own business which operates in Europe and USA.
-              When I'm not coding or photographing I like to play guitar, I'm teaching myself to play piano, I read, and also spend time with my family.
-              I am looking for opportunities where I can improve my knowledge and grow in this big and fascinating field of technology.
-              </p>       
+              <div className="cards">
+              <a href = "https://docs.google.com/document/d/1RVAdvHZDqCUlD1AsmmaC7uitJXe-ZJDLJFBB68IfIis" 
+                target="_blank">
+                <img src ={resume1}></img>
+                <img src ={resume2}></img>
+              </a>
+
+              <a href="/projects">
+                <img src ={project1}></img>
+                <img src ={project2}></img>
+              </a>
+
+              <a href="/projects">
+                <img src ={project4}></img>
+                <img src ={project3}></img>
+              </a>
+
+              <a href="/projects">
+                <img src ={project6}></img>
+                <img src ={project5}></img>
+              </a>
+
+              <a href="/articles">
+                <img src ={article1}></img>
+                <img src ={article2}></img>
+              </a>
+
+              
+              </div>
+                
             </div>
        )
    }

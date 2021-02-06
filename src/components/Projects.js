@@ -5,26 +5,22 @@ class Projects extends Component {
     render (){
         return (
             <div>
-                <h2>My Projects:</h2>
-                
                 <div className="projectsNavBar">
-                    
-                        
-                        <a className="projectsLink" href = "https://photogig.netlify.app/" target="_blank">Photogig</a>
-                        <p className="projectDescription">
+                    <a className="projectsLink" href = "https://photogig.netlify.app/" target="_blank">Photogig</a>
+                    <p className="projectDescription">
                         An application that makes it easy to find nearby
                         photographers, read reviews, and visit photography website. 
                         Frontend built with React-Redux.
                         Rails API handle the data persistence with a database.
-                        </p>
+                    </p>
                     
-                        <a className="projectsLink" href = "https://tripandtreat.netlify.app" target="_blank">Trip&Treat</a>
-                        <p className="projectDescription">
+                    <a className="projectsLink" href = "https://tripandtreat.netlify.app" target="_blank">Trip&Treat</a>
+                    <p className="projectDescription">
                         An application for individuals to keep track of the
                         price and description of various cuisines found on vacation
                         Frontend built with JavaScript. 
                         Rails API handle the data persistence with a database.
-                        </p>
+                    </p>
 
                     
                     <a className="projectsLink" href = " https://youtu.be/5dannSwmXn0" target="_blank">NabeB</a>

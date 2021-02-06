@@ -4,24 +4,20 @@ import Projects from './components/Projects'
 import Resume from './components/Resume'
 import NavBar from './components/NavBar'
 import {Route} from 'react-router-dom'
-import background from './images/photo-profile.jpg'
-
-import { FaBeer , FaLinkedin} from 'react-icons/fa';
-
-import {faLinkedin, faBeer} from 'react-icons/fa'
-
+import SocialMediaIcons from './components/SocialMediaIcons'
+import AboutMe from './components/AboutMe';
 
 function App() {
   return (
-    <div style={{ backgroundImage:`url(${background})`,
-    backgroundPosition: 'center',
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat'}} >
+    <div  >
     <NavBar/>
      
-    <h1>Claudia Vamesu Halip</h1> 
     <Route exact path = '/'>
       <Home/>
+    </Route>
+
+    <Route exact path ="/about">
+      <AboutMe/>
     </Route>
 
     <Route exact path = '/resume'>
@@ -33,8 +29,9 @@ function App() {
     </Route> 
     <br/>
     <br/>
-    <p className="copyright">2020 	&#169;Claudia Vamesu Halip</p>
-       
+    <SocialMediaIcons/>  
+    <p className="copyright">2021 	&#169;Claudia Vamesu Halip</p>
+     
     </div>
   );
 }

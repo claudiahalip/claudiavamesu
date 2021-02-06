@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-/*.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -50,25 +50,39 @@ h1 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(51, 51, 51, 0);
+  background-color: transparent;
+  /* height: 44px; */
+  text-align: center;
 }
 
-.navBarLinks {
+.navbar > li {
+  float: none;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 14px;
+  
+  /* transition: .3s background-color; */
+
+}
+
+/* .navBarLinks {
+ 
   float: right;
   transition: .3s background-color;
-
-}
+  
+  display: flex;
+  justify-content: center;
+  height: 44px;
+ 
+} */
 
 .navBarLinks:hover {
-  color: #e74040;
+  color: #8fb9dbb7;
   cursor: pointer;
-  border-bottom: 2px solid #e74040;
+  border-bottom: 2px solid #8fb9dbb7;
+  
   
 }
-
-
-
-
 .navBarLinks {
   display: block;
   color: rgb(172, 169, 169);
@@ -79,12 +93,16 @@ h1 {
 .story {
   
   right: 0;
-  text-align:left;
+  text-align:center;
   
   height: 30rem;
-  margin: 5rem 0rem 5rem 50rem;
+  margin: 0rem 20rem 0rem 20rem;
   
-  color: rgba(51, 49, 49, 0.658);
+  color: rgba(51, 49, 49, 0.76);
+  font-family: monospace;
+  font-size: 20px;
+  /* width: 1200px;
+  height: 600px; */
   
   
 }
@@ -100,26 +118,11 @@ h1 {
   background-color: rgba(51, 51, 51, 0);
 }
 
-.projectsLink{
-  display: block;
-  color: rgb(105, 103, 103);
-  text-align: right;
-  padding-right:50px;
-  text-decoration: none;
+h2 {
   font-size: 24px;
   font-family:fantasy;
-
-}
-
-
-.projectsLink:hover{
-  color: #e74040;
-}
-
-h2 {
-  font-size: 28px;
-  font-family:fantasy;
-  text-align: right;
+  text-align: left;
+  padding-left: 100px;
   color: rgba(63, 62, 62, 0.658);
   padding-right:50px;
   
@@ -142,10 +145,29 @@ h2 {
 .projectDescription{
   right: 0;
   text-align:left;
-  margin: 1rem 1rem 1rem 60rem;
-  
+  margin: 1rem 25rem 1rem 25rem;
+  font-family: monospace;
   color: rgba(51, 49, 49, 0.658);
+  font-size: 18px;
   
+}
+
+.projectsLink{
+  display: block;
+  color: rgb(105, 103, 103);
+  text-align: right;
+  margin: 1rem 25rem 1rem 25rem;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: monospace;
+  font-weight: bold;
+
+
+}
+
+.projectsLink:hover{
+  color: #8fb9dbb7;
+  border-bottom: 2px solid #8fb9dbb7;
 }
 
 .intro{
@@ -155,7 +177,36 @@ h2 {
   margin: 1rem 1rem 1rem 60rem;
   
   color: rgba(17, 17, 17, 0.664);
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family:monospace;
+}
+
+.resume-image{
+  position: right;
+  height: 600px;
+  width: 900px;
+}
+
+.image-home-page{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+
 }
 
 
+a img:last-child {
+  display: none;  
+}
+a:hover img:last-child {
+  display: block;  
+}
+a:hover img:first-child {
+  display: none;  
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:1fr 1fr ;
+}

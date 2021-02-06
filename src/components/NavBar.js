@@ -1,45 +1,44 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-import { FaEnvelope, FaFacebook , FaGit, FaGithub, FaLinkedin} from 'react-icons/fa';
+
 
 class NavBar extends Component {
    render(){
        return(
            <div>
-               <div className="navbar">
-                    <Link to = '/projects'>
-                       <p className="navBarLinks">Projects</p>
-                    </Link>
-                  
-                   <Link to = '/resume'>
-                       <p className="navBarLinks">Resume</p>
-                   </Link>
+                <div className="navbar">
+                    <li>
+                       <Link to = '/' style={{ textDecoration: 'none' }}>
+                            <p className="navBarLinks">Home</p>
+                       </Link>
+                    </li>
 
-                   <Link to = '/'>
-                       <p className="navBarLinks">Home</p>
-                   </Link>
+                    <li>
+                       <Link to = '/about' style={{ textDecoration: 'none' }}>
+                            <p className="navBarLinks">About me</p>
+                       </Link>
+                    </li>
 
-                   <div className="socialMediaIcons">
-                       <a className="socialMediaIcons" href="https://www.linkedin.com/in/claudia-halip-b8556a4a/" target="_blank">
-                       <FaLinkedin/>
-                       </a>
-                       <a className="socialMediaIcons" href = "https://www.facebook.com/claudiahalip/" target="_blank">
-                       <FaFacebook/>
-                       </a>
-                       <a className="socialMediaIcons" href = "mailto:claudiahalip2012@gmai.com" >
-                           <FaEnvelope/>
-                       </a>
-                       <a className="socialMediaIcons" href="https://github.com/claudiahalip" target="_blank">
-                           <FaGithub/>
-                       </a>
-                   </div>
-                   
-               </div>
+                    <li>
+                       <Link to = '/resume' style={{ textDecoration: 'none' }}>
+                            <p className="navBarLinks">Resume</p>
+                       </Link>
+                    </li>
 
-               
-              
+                    <li>
+                        <Link to = '/projects' style={{ textDecoration: 'none' }}>
+                            <p className="navBarLinks">Projects</p>
+                        </Link>
+                    </li>
 
-           </div>
+                    <li>
+                        <Link to = '/articles' style={{ textDecoration: 'none' }}>
+                            <p className="navBarLinks">Articles</p>
+                        </Link>
+                    </li>
+
+                </div>
+            </div>
        )
    }
 }
