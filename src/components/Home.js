@@ -20,15 +20,17 @@ class Home extends Component {
        return (
             <div>
              
-              
+             
               <img src ={photo} className="image-home-page" >
               </img>
+
+              <div className="cards">
               <a href="/about">
                 <img src ={aboutMe2}></img>
                 <img src ={aboutMe1}></img>
               </a>
 
-              <div className="cards">
+              
               <a href = "https://docs.google.com/document/d/1RVAdvHZDqCUlD1AsmmaC7uitJXe-ZJDLJFBB68IfIis" 
                 target="_blank">
                 <img src ={resume1}></img>
