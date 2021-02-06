@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import {Route} from 'react-router-dom'
 import SocialMediaIcons from './components/SocialMediaIcons'
 import AboutMe from './components/AboutMe';
+import Articles from './components/Articles';
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
     <Route exact path ='/projects'>
         <Projects/> 
     </Route> 
+
+    <Route exact path = '/articles'>
+        <Articles/>
+    </Route>
     <br/>
     <br/>
     <SocialMediaIcons/>  

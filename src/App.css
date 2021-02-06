@@ -2,41 +2,6 @@
   text-align: center;
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
-
 h1 {
   font-size: 36px;
   font-family:fantasy;
@@ -60,33 +25,22 @@ h1 {
   display: inline-block;
   font-family: sans-serif;
   font-size: 14px;
-
+  /* line-height: 0px; */
 }
-
-/* .navBarLinks {
- 
-  float: right;
-  transition: .3s background-color;
-  
-  display: flex;
-  justify-content: center;
-  height: 44px;
- 
-} */
 
 .navBarLinks:hover {
   color: #8fb9dbb7;
   cursor: pointer;
   border-bottom: 2px solid #8fb9dbb7;
-  
-  
 }
+
 .navBarLinks {
   display: block;
   color: rgb(172, 169, 169);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  line-height: 0px;
 }
 .story {
   
@@ -97,7 +51,7 @@ h1 {
   margin: 0rem 20rem 0rem 20rem;
   
   color: rgba(51, 49, 49, 0.76);
-  font-family: sans-serif;
+  font-family: monospace;
   font-size: 20px;
   /* width: 1200px;
   height: 600px; */
@@ -189,10 +143,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  
-
 }
-
 
 a img:last-child {
   display: none;  
@@ -206,5 +157,52 @@ a:hover img:first-child {
 
 .cards{
   display:grid;
-  grid-template-columns:1fr 1fr ;
+  grid-template-columns: 1fr 1fr ;
+  
+}
+
+.article-title{
+  display: block;
+  color: rgba(51, 49, 49, 0.658);
+  text-align: right;
+  margin: 1rem 20rem 1rem 20rem;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: bold;
+
+}
+.article-date{
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  color: rgba(51, 49, 49, 0.658);
+}
+
+.article{
+  right: 0;
+  text-align: center;
+  margin: 1rem 10rem 1rem 10rem;
+  font-family: monospace;
+  color: rgba(51, 49, 49, 0.658);
+  font-size: 18px;
+  
+  
+  
+}
+
+.article-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 300px;
+}
+
+.text-border{
+margin: 0 10rem 0 10rem;
+border-right: rgba(128, 128, 128, 0.712) solid 1px;
+border-left: rgba(128, 128, 128, 0.712) solid 1px;
+
+
 }
