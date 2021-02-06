@@ -1,21 +1,15 @@
 import React from 'react';
-import image from '../images/Chicago.jpg'
+import image from '../images/Chicago-landscape.jpg'
 
 const AboutMe = ()=>{
     return(
-        <div style={{ backgroundImage: `url(${image})`,
-        backgroundRepeat: 'no-repeat' ,
-        backgroundPosition: 'center',
-        // backgroundWidth: ' 1500px',
-        // backgroundHeight: '800px'
-        backgroundSize: 'auto'
-         }}>
+        <div>
+             <img src={image} className="header-image-Chicago"></img>
              <div>
                 <br/>
                 <br/>
                 <br/>
                 <br/>
-
                 <p className="story">
                 I live in the Chicago suburbs. I recently graduated from Flatiron school, currently working on my own projects where I can practice my skills gained during my time there.
                 I’ve graduated from college many years ago with a bachelor’s degree in Public Administration

@@ -4,7 +4,7 @@ import articleImage1 from '../images/article-image-1.jpg'
 const Articles = () => {
     return(
         <div>
-            <img src ={articleImage1} className="article-image"></img>
+            <img src ={articleImage1} className="header-image"></img>
             
             <div  className="text-border">
             <p className="article-title">

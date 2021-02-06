@@ -157,7 +157,7 @@ a:hover img:first-child {
 
 .cards{
   display:grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: repeat(2, 1fr);
   
 }
 
@@ -191,7 +191,7 @@ a:hover img:first-child {
   
 }
 
-.article-image{
+.header-image{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -203,6 +203,12 @@ a:hover img:first-child {
 margin: 0 10rem 0 10rem;
 border-right: rgba(128, 128, 128, 0.712) solid 1px;
 border-left: rgba(128, 128, 128, 0.712) solid 1px;
+}
 
-
+.header-image-Chicago{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
 }
