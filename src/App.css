@@ -159,8 +159,8 @@ a:hover img:first-child {
   display:grid;
   grid-template-columns: 1fr 1fr;
   line-height: 0px;
-  
 }
+
 
 .article-title{
   display: block;
