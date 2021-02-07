@@ -1,10 +1,11 @@
 import React , {Component} from 'react'
-import {Link} from 'react-router-dom' 
+import video from '../images/React-project.mp4'
 
 class Projects extends Component {
     render (){
         return (
             <div>
+                
                 <div className="projectsNavBar">
                     <a className="projectsLink" href = "https://photogig.netlify.app/" target="_blank">Photogig</a>
                     <p className="projectDescription">
@@ -13,6 +14,8 @@ class Projects extends Component {
                         Frontend built with React-Redux.
                         Rails API handle the data persistence with a database.
                     </p>
+                     <br></br>
+                    
                     
                     <a className="projectsLink" href = "https://tripandtreat.netlify.app" target="_blank">Trip&Treat</a>
                     <p className="projectDescription">
@@ -33,7 +36,11 @@ class Projects extends Component {
                     </p>
                     
                     
+                    
                 </div>
+                <video  className= "video" width="650" height="400" controls>
+                {/* <source src={video} type="video/mp4"/> */}
+                     </video>
 
             </div>
         )

@@ -158,6 +158,7 @@ a:hover img:first-child {
 .cards{
   display:grid;
   grid-template-columns: 1fr 1fr;
+  line-height: 0px;
   
 }
 
@@ -210,5 +211,12 @@ border-left: rgba(128, 128, 128, 0.712) solid 1px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  
+}
+
+.video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   
 }
