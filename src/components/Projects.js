@@ -1,5 +1,5 @@
 import React , {Component} from 'react'
-import video from '../images/React-project.mp4'
+import video from '../images/NabeB_application.mp4'
 
 class Projects extends Component {
     render (){
@@ -39,7 +39,7 @@ class Projects extends Component {
                     
                 </div>
                 <video  className= "video" width="650" height="400" controls>
-                {/* <source src={video} type="video/mp4"/> */}
+                <source src={video} type="video/mp4"/>
                      </video>
 
             </div>
