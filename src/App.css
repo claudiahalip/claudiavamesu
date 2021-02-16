@@ -63,7 +63,7 @@ h1 {
 }
 .projectsNavBar{
   list-style-type: none;
-  height: 35rem;
+  height: auto;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -85,6 +85,10 @@ h2 {
   text-align: left;
   padding: 14px 2px 14px 14px;
   color: rgba(63, 62, 62, 0.658);
+}
+.socialMediaIcons:hover{
+  color: #8fb9dbb7;
+  font-size: 36px;
 }
 
 .resume{
@@ -219,4 +223,9 @@ border-left: rgba(128, 128, 128, 0.712) solid 1px;
   margin-left: auto;
   margin-right: auto;
   
+}
+
+.github-icon{
+  text-align: right;
+  margin: 1rem 25rem 1rem 25rem;;
 }

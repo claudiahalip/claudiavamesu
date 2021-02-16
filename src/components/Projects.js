@@ -1,5 +1,6 @@
 import React , {Component} from 'react'
-import video from '../images/NabeB_application.mp4'
+import video from '../images/NabeB_application.mp4';
+import {FaGithub} from 'react-icons/fa'
 
 class Projects extends Component {
     render (){
@@ -8,6 +9,12 @@ class Projects extends Component {
                 
                 <div className="projectsNavBar">
                     <a className="projectsLink" href = "https://photogig.netlify.app/" target="_blank">Photogig</a>
+                    <div className="github-icon">
+                        <a className="socialMediaIcons" href="https://github.com/claudiahalip/NabeB-rails_project" target="_blank">
+                            <FaGithub/>
+                        </a>
+                    </div>
+
                     <p className="projectDescription">
                         An application that makes it easy to find nearby
                         photographers, read reviews, and visit photography website. 
@@ -18,6 +25,11 @@ class Projects extends Component {
                     
                     
                     <a className="projectsLink" href = "https://tripandtreat.netlify.app" target="_blank">Trip&Treat</a>
+                    <div className="github-icon">
+                        <a className="socialMediaIcons" href="https://github.com/claudiahalip/TripAndTreat-frontend" target="_blank">
+                            <FaGithub/>
+                        </a>
+                    </div>
                     <p className="projectDescription">
                         An application for individuals to keep track of the
                         price and description of various cuisines found on vacation
@@ -27,6 +39,12 @@ class Projects extends Component {
 
                     
                     <a className="projectsLink" href = " https://youtu.be/5dannSwmXn0" target="_blank">NabeB</a>
+                    <div className="github-icon">
+                        <a className="socialMediaIcons" href="https://github.com/claudiahalip/NabeB-rails_project" target="_blank">
+                            <FaGithub/>
+                        </a>
+                    </div>
+                    
                     <p className="projectDescription">
                         An application for individuals seeking to support small
                         businesses in their area by providing a repository of local businesses.
@@ -34,13 +52,11 @@ class Projects extends Component {
                         Standard user authentication, including signup, login, logout and passwords.
                         The authentication system also allows login with google account.
                     </p>
-                    
-                    
-                    
                 </div>
+            
                 <video  className= "video" width="650" height="400" controls>
-                <source src={video} type="video/mp4"/>
-                     </video>
+                    <source src={video} type="video/mp4"/>
+                </video>
 
             </div>
         )
