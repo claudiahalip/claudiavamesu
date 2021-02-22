@@ -11,15 +11,20 @@ h1 {
 }
 
 .navbar{
-  list-style-type: none;
+  justify-content: space-between;
+
   position: sticky;
   top: 0;
+  list-style-type: none;
+ 
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: transparent;
+  background-color: white;
   height: 44px;
   text-align: center;
+  z-index: 100;
+  width: 100%;
 }
 
 .navbar > li {

@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom'
 class NavBar extends Component {
    render(){
        return(
-           <div>
-                <div className="navbar">
+           <div className="navbar">
+                
                     <li>
                        <Link to = '/' style={{ textDecoration: 'none' }}>
                             <p className="navBarLinks">Home</p>
@@ -37,7 +37,7 @@ class NavBar extends Component {
                         </Link>
                     </li>
 
-                </div>
+                
             </div>
        )
    }
