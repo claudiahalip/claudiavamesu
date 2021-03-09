@@ -5,6 +5,8 @@ import '../css/Projects.css';
 import project2 from '../images/5.jpg';
 import project3 from '../images/6.jpg';
 import project5 from '../images/8.jpg';
+import brakingBad from '../images/BrakingBad.jpg'
+import garageSale from '../images/garageSale.jpg'
 
 
 class Projects extends Component {
@@ -65,9 +67,42 @@ class Projects extends Component {
                     </div>
                 </div>
             
-                {/* <video  className= "video" width="650" height="400" controls>
-                    <source src={video} type="video/mp4"/>
-                </video> */}
+                <div className="projectsCards">
+                    <img src={garageSale}></img>
+                    <div className="projects">
+                    <h2>Garage Sale</h2>
+                    <p> This app is a simple way for individual to keep track or sell their unused chlotes. 
+                        Users can create their own accounts, login and logout.
+                        Also the user can create, see, update and delete the resource that belongs to them.
+                        They only can see other useres resources.
+                    </p>
+                    <h3>Build with: Ruby, MVC Sinatra framework,Active Record, CSS, HTML
+                    </h3> 
+                    <a className="projectsLink" href = "https://www.youtube.com/watch?v=5itfacBK7q4&t=1s" target="_blank">See it in action!</a>
+                    
+                    <a className="socialMediaIcons" href="https://github.com/claudiahalip/garage_sale/tree/master/garage_sale" target="_blank">
+                        <FaGithub/>
+                    </a>
+                    </div>
+                </div>
+
+                <div className="projectsCards">
+                    <img src={brakingBad}></img>
+                    <div className="projects">
+                    <h2>CLI BrakingBad</h2>
+                    <p> This application bring out to Braking Bad's fans facts about this TV series.
+                    </p>
+                    <h3> A Command Line Interface (CLI) composed of an Object Oriented Ruby application.
+                    Behind the scenes it is creating calls to an API.
+
+                    </h3> 
+                    <a className="projectsLink" href = "https://www.youtube.com/watch?v=JK6X6jfTRRA" target="_blank">See it in action!</a>
+                    
+                    <a className="socialMediaIcons" href="https://github.com/claudiahalip/NabeB-rails_project" target="_blank">
+                        <FaGithub/>
+                    </a>
+                    </div>
+                </div>
 
             </div>
         )
