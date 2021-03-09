@@ -19,10 +19,10 @@ class Projects extends Component {
                     <div className="projects">
                         <h2>Photogig</h2>
                         <p>An application that makes it easy to find nearby
-                            photographers, read reviews, and visit photography website. 
+                            photographers, read reviews, and visit photographer website. 
                         </p>
-                        <h3>Frontend built with React-Redux, CSS, HTML
-                            Rails API handle the data persistence with a database.
+                        <h3>Frontend built with React-Redux, CSS, HTML.
+                           Rails API handle the data persistence with a database.
                         </h3>
                         <a className="projectsLink" href = "https://photogig.netlify.app/" target="_blank">See it in action!</a>
                         <a className="socialMediaIcons" href="https://github.com/claudiahalip/NabeB-rails_project" target="_blank">
@@ -53,7 +53,6 @@ class Projects extends Component {
                     <h2>NabeB</h2>
                     <p> An application for individuals seeking to support small
                         businesses in their area by providing a repository of local businesses.
-                        Build with: Ruby on Rails framework.
                     </p>
                     <h3>Build with: Ruby on Rails framework, CSS, HTML
                     Standard user authentication, including signup, login, logout and passwords. 
