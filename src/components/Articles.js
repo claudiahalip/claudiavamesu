@@ -1,5 +1,8 @@
 import React from 'react'
-import articleImage1 from '../images/article-image-1.jpg'
+import articleImage1 from '../images/article-image-1.jpg';
+import emoji from '../images/emoji.jpg';
+import '../css/Articles.css';
+import imageSnippet from '../images/ruby-on-rails.jpg'
 
 const Articles = () => {
     return(
@@ -35,12 +38,30 @@ const Articles = () => {
 
             It’s been three months of learning to code!
             </p>
+            
             </div>
-            <div className= "moreArticle">
-            <h3>Ruby on Rails: The elegant collection_select method</h3>
-            <a href = "https://claudiahalip.github.io/the_elegant_collection_select_method"></a>
-            <h3>React: Like button with and without react-icons</h3>
-            <a href = "https://claudiahalip.github.io/like_button_with_and_without_react-icons"></a>
+
+            <div className="title">MORE ARTICLES:</div>
+
+            <div className= "moreArticles">
+            
+                <div className="articleCard">
+                <a href = "https://claudiahalip.github.io/the_elegant_collection_select_method" 
+                target="_blank">
+                    <h4>Ruby on Rails: </h4>
+                    <h4>The elegant collection_select method</h4>
+                </a>
+                <img src={imageSnippet}></img>
+                </div>
+
+                <div className="articleCard">
+                <a href = "https://claudiahalip.github.io/like_button_with_and_without_react-icons"
+                target="_blank">
+                    <h4>React: Like button with and without react-icons</h4>
+
+                </a>
+                <img src={emoji}></img>
+                </div>
             </div>
         </div>
     )

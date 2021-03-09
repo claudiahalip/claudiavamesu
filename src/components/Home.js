@@ -12,7 +12,7 @@ import resume1 from '../images/10.jpg';
 import resume2 from '../images/11.jpg';
 import article1 from '../images/12.jpg';
 import article2 from '../images/13.jpg';
-
+import '../css/Home.css'
 
 
 class Home extends Component {

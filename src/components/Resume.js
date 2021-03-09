@@ -13,13 +13,7 @@ class Resume extends Component {
     render (){
         return(
             <div>
-               
-               {/* <a href = "https://docs.google.com/document/d/1RVAdvHZDqCUlD1AsmmaC7uitJXe-ZJDLJFBB68IfIis" target="_blank">
-               <img className = "resume" src={resume}></img>
-               </a> */}
-
-               
-                <a href="https://docs.google.com/document/d/1RVAdvHZDqCUlD1AsmmaC7uitJXe-ZJDLJFBB68IfIis" style={{ textDecoration: 'none' }} target="_blank">
+               <a href="https://docs.google.com/document/d/1RVAdvHZDqCUlD1AsmmaC7uitJXe-ZJDLJFBB68IfIis" style={{ textDecoration: 'none' }} target="_blank">
                <Document file={file}
                    options={{workerSrc: "pdf.worker.js"}}>
                    <Page pageNumber={1}/>
