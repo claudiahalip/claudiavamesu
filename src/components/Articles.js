@@ -51,15 +51,17 @@ const Articles = () => {
                     <h4>Ruby on Rails: </h4>
                     <h4>The elegant collection_select method</h4>
                 </a>
+                <h5>Claudia Vamesu on July 31, 2020</h5>
                 <img src={imageSnippet}></img>
                 </div>
 
                 <div className="articleCard">
                 <a href = "https://claudiahalip.github.io/like_button_with_and_without_react-icons"
                 target="_blank">
-                    <h4>React: Like button with and without react-icons</h4>
-
+                    <h4>React:</h4>
+                    <h4>Like button with and without react-icons</h4>
                 </a>
+                <h5>Claudia Vamesu on October 5, 2020</h5>
                 <img src={emoji}></img>
                 </div>
             </div>

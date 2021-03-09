@@ -64,8 +64,12 @@
     overflow: hidden;
     
 }
-.articleCard > h4 {
-    font-size: 18px;
+
+.articleCard > h5{
+    font-size: 14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+    text-align: center;
 }
 
 .articleCard > a {
@@ -78,10 +82,13 @@
     color:turquoise;
     text-decoration: none;
     line-height: 0px;
-    
+}
+
+a:hover{
+    color: rgb(52, 117, 111);
 }
 .articleCard > img {
-    margin-top: 40px;
+    margin-top: 10px;
     width: auto;
 }
 
