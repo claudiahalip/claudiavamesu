@@ -1,0 +1,19 @@
+.aboutMe{
+  margin: 100px; 
+  align-items: center; 
+  
+}
+
+.aboutMe > p {
+    font-size: 24px;
+    font-family: monospace;
+}
+
+.icons{
+   display: flex;
+   position: relative;
+}
+
+.icons > img {
+    height: 50px;
+}

@@ -35,7 +35,7 @@ function App() {
     <br/>
     <br/>
     <SocialMediaIcons/>  
-    <p className="copyright">2021 	&#169;Claudia Vamesu Halip</p>
+    
      
     </div>
   );

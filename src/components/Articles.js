@@ -36,6 +36,12 @@ const Articles = () => {
             It’s been three months of learning to code!
             </p>
             </div>
+            <div className= "moreArticle">
+            <h3>Ruby on Rails: The elegant collection_select method</h3>
+            <a href = "https://claudiahalip.github.io/the_elegant_collection_select_method"></a>
+            <h3>React: Like button with and without react-icons</h3>
+            <a href = "https://claudiahalip.github.io/like_button_with_and_without_react-icons"></a>
+            </div>
         </div>
     )
 }

@@ -19,6 +19,7 @@ const SocialMediaIcons = ()=>{
                            <FaGithub/>
                        </a>
                    </div>
+                   <p className="copyright">2021 	&#169;Claudia Vamesu Halip</p>
 
         </div>
     )
