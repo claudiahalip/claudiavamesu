@@ -1,62 +1,73 @@
-import React , {Component} from 'react'
+import React , {Component} from 'react';
 import video from '../images/NabeB_application.mp4';
-import {FaGithub} from 'react-icons/fa'
+import {FaGithub} from 'react-icons/fa';
+import '../css/Projects.css';
+import project2 from '../images/5.jpg';
+import project3 from '../images/6.jpg';
+import project5 from '../images/8.jpg';
+
 
 class Projects extends Component {
     render (){
         return (
             <div>
                 
-                <div className="projectsNavBar">
-                    <a className="projectsLink" href = "https://photogig.netlify.app/" target="_blank">Photogig</a>
-                    <div className="github-icon">
+                <div className="projectsCards">
+                    <img src={project2}></img>
+                    <div className="projects">
+                        <h2>Photogig</h2>
+                        <p>An application that makes it easy to find nearby
+                            photographers, read reviews, and visit photography website. 
+                        </p>
+                        <h3>Frontend built with React-Redux, CSS, HTML
+                            Rails API handle the data persistence with a database.
+                        </h3>
+                        <a className="projectsLink" href = "https://photogig.netlify.app/" target="_blank">See it in action!</a>
                         <a className="socialMediaIcons" href="https://github.com/claudiahalip/NabeB-rails_project" target="_blank">
-                            <FaGithub/>
+                                <FaGithub/>
                         </a>
                     </div>
+                </div>
+                    
+                <div className="projectsCards">
+                    <img src={project3}></img>
+                    <div className="projects">
+                        <h2>Trip&Treat</h2>
+                        <p> An application for individuals to keep track of the 
+                            price and description of various cuisines found on vacation.
+                        </p>
+                        <h3>Built with: JavaScript, Ruby on Rails, HTML, HTML</h3>
+                        <a className="projectsLink" href = "https://tripandtreat.netlify.app" target="_blank">See it in action!</a>
 
-                    <p className="projectDescription">
-                        An application that makes it easy to find nearby
-                        photographers, read reviews, and visit photography website. 
-                        Frontend built with React-Redux.
-                        Rails API handle the data persistence with a database.
-                    </p>
-                     <br></br>
-                    
-                    
-                    <a className="projectsLink" href = "https://tripandtreat.netlify.app" target="_blank">Trip&Treat</a>
-                    <div className="github-icon">
                         <a className="socialMediaIcons" href="https://github.com/claudiahalip/TripAndTreat-frontend" target="_blank">
                             <FaGithub/>
                         </a>
                     </div>
-                    <p className="projectDescription">
-                        An application for individuals to keep track of the
-                        price and description of various cuisines found on vacation
-                        Frontend built with JavaScript. 
-                        Rails API handle the data persistence with a database.
-                    </p>
-
-                    
-                    <a className="projectsLink" href = " https://youtu.be/5dannSwmXn0" target="_blank">NabeB</a>
-                    <div className="github-icon">
-                        <a className="socialMediaIcons" href="https://github.com/claudiahalip/NabeB-rails_project" target="_blank">
-                            <FaGithub/>
-                        </a>
-                    </div>
-                    
-                    <p className="projectDescription">
-                        An application for individuals seeking to support small
+                </div>
+                 
+                <div className="projectsCards">
+                    <img src={project5}></img>
+                    <div className="projects">
+                    <h2>NabeB</h2>
+                    <p> An application for individuals seeking to support small
                         businesses in their area by providing a repository of local businesses.
-                        Build with Ruby on Rails framework.
-                        Standard user authentication, including signup, login, logout and passwords.
-                        The authentication system also allows login with google account.
+                        Build with: Ruby on Rails framework.
                     </p>
+                    <h3>Build with: Ruby on Rails framework, CSS, HTML
+                    Standard user authentication, including signup, login, logout and passwords. 
+                    The authentication system also allows login with google account.
+                    </h3> 
+                    <a className="projectsLink" href = " https://youtu.be/5dannSwmXn0" target="_blank">See it in action!</a>
+                    
+                    <a className="socialMediaIcons" href="https://github.com/claudiahalip/NabeB-rails_project" target="_blank">
+                        <FaGithub/>
+                    </a>
+                    </div>
                 </div>
             
-                <video  className= "video" width="650" height="400" controls>
+                {/* <video  className= "video" width="650" height="400" controls>
                     <source src={video} type="video/mp4"/>
-                </video>
+                </video> */}
 
             </div>
         )

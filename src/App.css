@@ -68,14 +68,7 @@ h1 {
 .copyright{
   text-align: center;
 }
-.projectsNavBar{
-  list-style-type: none;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgba(51, 51, 51, 0);
-}
+
 
 h2 {
   font-size: 24px;
@@ -89,13 +82,13 @@ h2 {
 .socialMediaIcons{
   font-size: 24px;
   font-family:fantasy;
-  text-align: left;
-  padding: 14px 2px 14px 14px;
-  color: rgba(63, 62, 62, 0.658);
+  
+  margin: 1rem 1rem 1rem 1rem;
+  color: #8fb9dbb7;
 }
 .socialMediaIcons:hover{
-  color: #8fb9dbb7;
-  font-size: 36px;
+  color: #2c455ab7;
+  /* font-size: 36px; */
 }
 
 .resume{
@@ -105,33 +98,11 @@ h2 {
 
 }
 
-.projectDescription{
-  right: 0;
-  text-align:left;
-  margin: 1rem 25rem 1rem 25rem;
-  font-family: monospace;
-  color: rgba(51, 49, 49, 0.658);
-  font-size: 18px;
-  
-}
-
-.projectsLink{
-  display: block;
-  color: rgb(105, 103, 103);
-  text-align: right;
-  margin: 1rem 25rem 1rem 25rem;
-  text-decoration: none;
-  font-size: 24px;
-  font-family: monospace;
-  font-weight: bold;
 
 
-}
 
-.projectsLink:hover{
-  color: #8fb9dbb7;
-  border-bottom: 2px solid #8fb9dbb7;
-}
+
+
 
 .intro{
   font-size: 20px;
@@ -232,7 +203,4 @@ border-left: rgba(128, 128, 128, 0.712) solid 1px;
   
 }
 
-.github-icon{
-  text-align: right;
-  margin: 1rem 25rem 1rem 25rem;;
-}
+
