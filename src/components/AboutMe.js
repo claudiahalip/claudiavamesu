@@ -12,10 +12,10 @@ const AboutMe = ()=>{
             <p>Since then not a single day passed by without 
             <p><i>CODING</i> or</p>
             <p> <i>READING</i> about it or</p> 
-            <p><i>THINKING</i> how to <i>SOLVE ALGORITHMS</i>.</p>
+            <p><i>THINKING</i> about how to <i>SOLVE ALGORITHMS</i>.</p>
             </p>
             <p>
-               So far I am experinced in this 
+               So far I am experinced in these 
             </p>
              <p>
                 programing languages/frameworks/libraries/database:
@@ -54,7 +54,7 @@ const AboutMe = ()=>{
 			</svg>
 
             </div>
-            <p>...and stil learning to add more of this beautiful icons.</p>
+            <p>...and stil learning to add more of these beautiful icons.</p>
             <p>I am currentlly seeking full stack, front-end or back-end oportunities in Chicago.</p>
         </div>
     )
