@@ -55,7 +55,7 @@ const AboutMe = ()=>{
 
             </div>
             <p>...and stil learning to add more of these beautiful icons.</p>
-            <p>I am currentlly seeking full stack, front-end or back-end oportunities in Chicago.</p>
+            <p>I am currentlly seeking full stack, front-end or back-end oportunities.</p>
         </div>
     )
 }
