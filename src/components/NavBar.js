@@ -19,10 +19,17 @@ class NavBar extends Component {
                        </Link>
                     </li>
 
-                    <li>
+                    {/* <li>
                        <Link to = '/resume' style={{ textDecoration: 'none' }}>
                             <p className="navBarLinks">Resume</p>
                        </Link>
+                    </li> */}
+                    <li>
+                    <a href = "https://docs.google.com/document/d/1RVAdvHZDqCUlD1AsmmaC7uitJXe-ZJDLJFBB68IfIis" 
+                target="_blank"
+                style={{ textDecoration: 'none' }}
+                ><p className="navBarLinks">Resume</p>
+                    </a> 
                     </li>
 
                     <li>
