@@ -12,7 +12,7 @@ const AboutMe = ()=>{
             <p>Since then not a single day passed by without 
             <p><i>CODING</i> or</p>
             <p> <i>READING</i> about it or</p> 
-            <p><i>THINKING</i> about how to <i>SOLVE ALGORITHMS</i>.</p>
+            <p><i>THINKING</i> about how to <i>SOLVE PROBLEMS</i>.</p>
             </p>
             <p>
                So far I am experinced in these 
