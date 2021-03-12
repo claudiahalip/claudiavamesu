@@ -1,11 +1,12 @@
 import React from 'react';
 import { FaEnvelope, FaFacebook , FaGithub, FaLinkedin} from 'react-icons/fa';
+import '../css/SocialMediaIcons.css';
 
-const SocialMediaIcons = ()=>{
+const SocialMediaIcons = () => {
     return(
         <div>
 
-<div className="socialMediaIcons">
+             <div className="socialMedia">
                        <a className="socialMediaIcons" href="https://www.linkedin.com/in/claudia-halip-b8556a4a/" target="_blank">
                        <FaLinkedin/>
                        </a>
@@ -18,8 +19,8 @@ const SocialMediaIcons = ()=>{
                        <a className="socialMediaIcons" href="https://github.com/claudiahalip" target="_blank">
                            <FaGithub/>
                        </a>
-                   </div>
-                   <p className="copyright">2021 	&#169;Claudia Vamesu Halip</p>
+                </div>
+                <p className="copyright">2021 	&#169;Claudia Vamesu Halip</p>
 
         </div>
     )

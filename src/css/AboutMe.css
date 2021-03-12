@@ -1,6 +1,7 @@
 .aboutMe{
-  margin: 50px 100px 50px 100px; 
+  margin: 50px 100px 50px 150px; 
   align-items: center;
+  text-align: center;
   
 }
 
@@ -12,7 +13,8 @@
 .icons{
    display: flex;
    position: relative;
-   margin: 30px;
+   margin-left: 270px;
+   /* margin: 30px; */
 }
 
 .icons > img {

@@ -1,0 +1,13 @@
+.socialMedia{
+ margin-left: 600px;
+}
+.socialMediaIcons{
+    font-size: 24px;
+    font-family:fantasy;
+    margin:10px;
+    color: #8fb9dbb7;
+  }
+  .socialMediaIcons:hover{
+    color: #2c455ab7;
+    /* font-size: 36px; */
+  }
