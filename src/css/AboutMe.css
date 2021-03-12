@@ -1,10 +1,11 @@
 .aboutMe{
   margin: 50px 100px 50px 100px; 
   align-items: center;
+  
 }
 
 .aboutMe > p {
-    font-size: 16px;
+    font-size: 20px;
     font-family: helvetica;
 }
 
