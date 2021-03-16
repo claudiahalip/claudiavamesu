@@ -30,23 +30,7 @@ class Projects extends Component {
                         </a>
                     </div>
                 </div>
-                    
-                <div className="projectsCards">
-                    <img src={project3}></img>
-                    <div className="projects">
-                        <h2>Trip&Treat</h2>
-                        <p> An application for individuals to keep track of the 
-                            price and description of various cuisines found on vacation.
-                        </p>
-                        <h3>Built with: JavaScript, Ruby on Rails, HTML, HTML</h3>
-                        <a className="projectsLink" href = "https://tripandtreat.netlify.app" target="_blank">See it in action!</a>
 
-                        <a className="socialMediaIcons" href="https://github.com/claudiahalip/TripAndTreat-frontend" target="_blank">
-                            <FaGithub/>
-                        </a>
-                    </div>
-                </div>
-                 
                 <div className="projectsCards">
                     <img src={project5}></img>
                     <div className="projects">
@@ -65,6 +49,24 @@ class Projects extends Component {
                     </a>
                     </div>
                 </div>
+                    
+                <div className="projectsCards">
+                    <img src={project3}></img>
+                    <div className="projects">
+                        <h2>Trip&Treat</h2>
+                        <p> An application for individuals to keep track of the 
+                            price and description of various cuisines found on vacation.
+                        </p>
+                        <h3>Built with: JavaScript, Ruby on Rails, HTML, HTML</h3>
+                        <a className="projectsLink" href = "https://tripandtreat.netlify.app" target="_blank">See it in action!</a>
+
+                        <a className="socialMediaIcons" href="https://github.com/claudiahalip/TripAndTreat-frontend" target="_blank">
+                            <FaGithub/>
+                        </a>
+                    </div>
+                </div>
+                 
+                
             
                 <div className="projectsCards">
                     <img src={garageSale}></img>
