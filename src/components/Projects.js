@@ -38,7 +38,7 @@ class Projects extends Component {
                     <p> An application for individuals seeking to support small
                         businesses in their area by providing a repository of local businesses.
                     </p>
-                    <h3>Build with: Ruby on Rails framework, CSS, HTML
+                    <h3>Build with: Ruby on Rails framework, CSS, HTML.
                     Standard user authentication, including signup, login, logout and passwords. 
                     The authentication system also allows login with google account.
                     </h3> 
@@ -57,7 +57,7 @@ class Projects extends Component {
                         <p> An application for individuals to keep track of the 
                             price and description of various cuisines found on vacation.
                         </p>
-                        <h3>Built with: JavaScript, Ruby on Rails, HTML, HTML</h3>
+                        <h3>Built with: JavaScript, Ruby on Rails, HTML, CSS</h3>
                         <a className="projectsLink" href = "https://tripandtreat.netlify.app" target="_blank">See it in action!</a>
 
                         <a className="socialMediaIcons" href="https://github.com/claudiahalip/TripAndTreat-frontend" target="_blank">
@@ -73,8 +73,8 @@ class Projects extends Component {
                     <div className="projects">
                     <h2>Garage Sale</h2>
                     <p> This app is a simple way for individual to keep track or sell their unused chlotes. 
-                        Users can create their own accounts, login and logout.
-                        Also the user can create, see, update and delete the resource that belongs to them.
+                        Users can create their own account, login and logout.
+                        Also the user can create, see, update and delete the resources that belong to them.
                         They only can see other useres resources.
                     </p>
                     <h3>Build with: Ruby, MVC Sinatra framework,Active Record, CSS, HTML
