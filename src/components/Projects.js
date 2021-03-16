@@ -58,7 +58,7 @@ class Projects extends Component {
                     Standard user authentication, including signup, login, logout and passwords. 
                     The authentication system also allows login with google account.
                     </h3> 
-                    <a className="projectsLink" href = " https://youtu.be/5dannSwmXn0" target="_blank">See it in action!</a>
+                    <a className="projectsLink" href = "https://nabeb.herokuapp.com" target="_blank">See it in action!</a>
                     
                     <a className="socialMediaIcons" href="https://github.com/claudiahalip/NabeB-rails_project" target="_blank">
                         <FaGithub/>
