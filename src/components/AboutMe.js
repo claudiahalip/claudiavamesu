@@ -7,7 +7,7 @@ const AboutMe = ()=>{
     return(
         <div className="aboutMe">
              <p>
-                 At the beging of 2020 I decided to become a 
+                 At the beginning of 2020 I decided to become a 
                  <b> Software engineer</b>.
              </p>
             <p>Since then not a single day passed by without 
@@ -19,7 +19,7 @@ const AboutMe = ()=>{
                So far I am experinced in these 
             </p>
              <p>
-                programing languages/frameworks/libraries/database:
+                programming languages/frameworks/libraries/database:
             </p> 
 
             <div className ="icons">
@@ -58,9 +58,9 @@ const AboutMe = ()=>{
             <p>...and stil learning to add more of these beautiful icons.
                 <FaGrinWink className="wink"/>
             </p>
-            <p>I am  a problem solver. I  enjoy debugging code, resolving issues, and creating solutions for common problems.</p>
+            <p>I am  a problem solver. I enjoy debugging code, resolving issues, and creating solutions for common problems.</p>
             <p>I am that kind of developer who leaves no stone unturned when fixing a bug or completing a task.</p>
-            <p>I am currentlly seeking full stack, front-end or back-end oportunities.</p>
+            <p>I am currentlly seeking full stack, front-end or back-end opportunities.</p>
         </div>
     )
 }
