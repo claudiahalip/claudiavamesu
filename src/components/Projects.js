@@ -25,7 +25,7 @@ class Projects extends Component {
                            Rails API handle the data persistence with a database.
                         </h3>
                         <a className="projectsLink" href = "https://photogig.netlify.app/" target="_blank">See it in action!</a>
-                        <a className="socialMediaIcons" href="https://github.com/claudiahalip/NabeB-rails_project" target="_blank">
+                        <a className="socialMediaIcons" href="https://github.com/claudiahalip/PhotoGigs-frontend" target="_blank">
                                 <FaGithub/>
                         </a>
                     </div>
