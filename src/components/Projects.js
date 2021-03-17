@@ -22,7 +22,7 @@ class Projects extends Component {
                             photographers, read reviews, and visit photographer website. 
                         </p>
                         <h3>Frontend built with React-Redux, CSS, HTML.
-                           Rails API handle the data persistence with a database.
+                           Rails API handles the data persistence with a database.
                         </h3>
                         <a className="projectsLink" href = "https://photogig.netlify.app/" target="_blank">See it in action!</a>
                         <a className="socialMediaIcons" href="https://github.com/claudiahalip/PhotoGigs-frontend" target="_blank">
