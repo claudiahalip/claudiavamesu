@@ -37,20 +37,22 @@ class Home extends Component {
                 <img src ={resume2}></img>
               </a>
 
-              <a href="/projects">
+              <a href="/projects#photogig-project">
                 <img src ={project1}></img>
                 <img src ={project2}></img>
               </a>
 
-              <a href="/projects">
+              <a href="/projects#nabeb-project">
+                <img src ={project6}></img>
+                <img src ={project5}></img>
+              </a>
+
+              <a href="/projects#tripandtreat-project">
                 <img src ={project4}></img>
                 <img src ={project3}></img>
               </a>
 
-              <a href="/projects">
-                <img src ={project6}></img>
-                <img src ={project5}></img>
-              </a>
+             
 
               <a href="/articles">
                 <img src ={article1}></img>

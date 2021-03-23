@@ -16,7 +16,7 @@ class Projects extends Component {
                 
                 <div className="projectsCards">
                     <img src={project2}></img>
-                    <div className="projects">
+                    <div className="projects" id="photogig-project">
                         <h2>Photogig</h2>
                         <p>An application that makes it easy to find nearby
                             photographers, read reviews, and visit photographer website. 
@@ -31,7 +31,7 @@ class Projects extends Component {
                     </div>
                 </div>
 
-                <div className="projectsCards">
+                <div className="projectsCards" id="nabeb-project">
                     <img src={project5}></img>
                     <div className="projects">
                     <h2>NabeB</h2>
@@ -52,7 +52,7 @@ class Projects extends Component {
                     
                 <div className="projectsCards">
                     <img src={project3}></img>
-                    <div className="projects">
+                    <div className="projects" id="tripandtreat-project">
                         <h2>Trip&Treat</h2>
                         <p> An application for individuals to keep track of the 
                             price and description of various cuisines found on vacation.
